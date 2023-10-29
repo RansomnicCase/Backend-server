@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const db = require('./config/database');
 const { Schema }  = mongoose;
-//ask kush bhaiya about phone no and password
 const userSchema = new Schema({
 
     Phno:{
@@ -11,7 +10,7 @@ const userSchema = new Schema({
         
         
     },
-    //does password have to be unique?
+    
     password:{
         type:String,
         required:true,
