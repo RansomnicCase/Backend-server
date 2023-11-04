@@ -1,2 +1,2 @@
-# Setubackend
-This is the backend code for setu app
+# Backend server code(mongodb)
+
