@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = require('/Database.js');
+const database = require('C:/Users/YASH/Documents/Setubackend/config/database.js');
 const { Schema }  = mongoose;
 const userSchema = new Schema({
 

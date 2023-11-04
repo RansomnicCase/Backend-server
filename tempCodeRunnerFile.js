@@ -1,6 +1,7 @@
 const app = require('./app');
-const database = require('C:/Users/YASH/Documents/Setubackend/config/database.js');
-const usermodel = require('C:/Users/YASH/Documents/Setubackend/models/user.model.js');
+// const database = require('.config/database');
+// const usermodel = require('./model/user.model');
+const usermodel = require('./models');
 const port = 3000;
 
 app.get('/', (req, res) => {
